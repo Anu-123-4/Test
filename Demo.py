@@ -1,5 +1,6 @@
 #this code is to generate reprt using pandas
 #@editor: Anushree devadiga
+#hi
 import pandas as pd
 import pyodbc as odbc
 from datetime import datetime
@@ -9,7 +10,6 @@ ConnectionString=odbc.connect(
     'Server=Anushree\SQLEXPRESS;'
     'Database=AdventureWorks2019;'
     'Trusted_Connection=yes;'
-
 
 )
 
